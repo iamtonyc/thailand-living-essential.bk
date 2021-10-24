@@ -1,5 +1,10 @@
 #sample code from  https://www.tutsmake.com/react-17-bootstrap-navbar-example/
 
+deploy React App to Github pages
+---------------------------------
+https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
