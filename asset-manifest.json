@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/thailand-living-essential/static/js/main.734c3b3b.chunk.js",
+    "main.js.map": "/thailand-living-essential/static/js/main.734c3b3b.chunk.js.map",
+    "runtime-main.js": "/thailand-living-essential/static/js/runtime-main.9ddb9bba.js",
+    "runtime-main.js.map": "/thailand-living-essential/static/js/runtime-main.9ddb9bba.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/thailand-living-essential/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.15e8b9b6.chunk.js": "/thailand-living-essential/static/js/2.15e8b9b6.chunk.js",
+    "static/js/2.15e8b9b6.chunk.js.map": "/thailand-living-essential/static/js/2.15e8b9b6.chunk.js.map",
+    "index.html": "/thailand-living-essential/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/thailand-living-essential/static/css/2.0a9ec390.chunk.css.map",
+    "static/js/2.15e8b9b6.chunk.js.LICENSE.txt": "/thailand-living-essential/static/js/2.15e8b9b6.chunk.js.LICENSE.txt",
+    "static/media/krafBangnaImage.ab4fa300.jpg": "/thailand-living-essential/static/media/krafBangnaImage.ab4fa300.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ddb9bba.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.15e8b9b6.chunk.js",
+    "static/js/main.734c3b3b.chunk.js"
+  ]
+}
