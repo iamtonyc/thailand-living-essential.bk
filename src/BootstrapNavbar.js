@@ -1,5 +1,5 @@
 import React from "react";
-// import { BrowserRouter } from "react-router-dom";
+import BrowserRouter from 'react-router-dom/BrowserRouter';
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,6 +14,8 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
+
+
 import Home from "./Components/Home";
 import AboutUs from "./Components/AboutUs";
 import ContactUs from "./Components/ContactUS";
@@ -21,13 +23,19 @@ import KrafBangnaTrafficTime from "./Components/Map/KrafBangnaTrafficTime";
 import BangnaMap from "./Components/Map/BangnaMap";
 import LivingEssential from "./Components/Living/LivingEssential";
 
+
+const routerBaseName = process.env.PUBLIC_URL;
+
 class BootstrapNavbar extends React.Component {
+  
   render() {
+    console.log('routerBaseName', routerBaseName);
+    console.log('process.env.NODE_ENV',process.env.NODE_ENV);
     return (
       <div>
         <div className="row">
           <div className="col-md-12">
-            <Router>
+            <Router basename={routerBaseName} >
               <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
                 <Navbar.Brand href="/" >
                   Thailand Living Essential
@@ -138,13 +146,7 @@ class BootstrapNavbar extends React.Component {
               </Navbar>
               <br />
               <Switch>
-  
-                {/* <BrowserRouter basename="/">
-                    <Home />
-                </BrowserRouter> */}
-                {/* <Route exact path="">
-                  <Home />
-                </Route>  */}
+
                 <Route exact path="/">
                   <Home />
                 </Route>  
