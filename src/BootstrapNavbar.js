@@ -1,5 +1,5 @@
 import React from "react";
-import BrowserRouter from 'react-router-dom/BrowserRouter';
+import BrowserRouter from "react-router-dom/BrowserRouter";
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,7 +15,6 @@ import {
   Button,
 } from "react-bootstrap";
 
-
 import Home from "./Components/Home";
 import AboutUs from "./Components/AboutUs";
 import ContactUs from "./Components/ContactUS";
@@ -23,32 +22,36 @@ import KrafBangnaTrafficTime from "./Components/Map/KrafBangnaTrafficTime";
 import BangnaMap from "./Components/Map/BangnaMap";
 import LivingEssential from "./Components/Living/LivingEssential";
 
-
 const routerBaseName = process.env.PUBLIC_URL;
 
 class BootstrapNavbar extends React.Component {
-  
   render() {
-    console.log('routerBaseName', routerBaseName);
-    console.log('process.env.NODE_ENV',process.env.NODE_ENV);
+    console.log("routerBaseName", routerBaseName);
+    console.log("process.env.NODE_ENV", process.env.NODE_ENV);
     return (
       <div>
         <div className="row">
           <div className="col-md-12">
-            <Router basename={routerBaseName} >
+            <Router basename={routerBaseName}>
               <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                <Navbar.Brand href="/" >
+                <Navbar.Brand href="/thailand-living-essential/">
                   Thailand Living Essential
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/thailand-living-essential/">Home</Nav.Link>
                     <NavDropdown title="Map" id="basic-nav-dropdown">
-                      <NavDropdown.Item href="/karfBangnaTrafficTime">
+                      <NavDropdown.Item
+                        href="https://drive.google.com/file/d/18oal6lGVcnBBX3xCZDx-fn8fAdZruGjt/view?usp=sharing"
+                        target="_blank"
+                      >
                         Kraf Bangna Traffic Time
                       </NavDropdown.Item>
-                      <NavDropdown.Item href="/BangnaMap">
+                      <NavDropdown.Item
+                        href="https://www.google.com/maps/d/edit?hl=zh-TW&mid=1aZc_9pc10jtWndMUVNp7Mvazx1LkaCqG"
+                        target="_blank"
+                      >
                         Bangna Map
                       </NavDropdown.Item>
                       <NavDropdown.Divider />
@@ -92,7 +95,7 @@ class BootstrapNavbar extends React.Component {
                       </NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Living" id="basic-nav-dropdown">
-                      <NavDropdown.Item href="/LivingEssential">
+                      <NavDropdown.Item href="https://docs.google.com/document/d/1ockOPr6NoQU086mNxxvJOSr4zIIG8qkgKKSWxqU7wGk/edit">
                         Living Essential
                       </NavDropdown.Item>
                       <NavDropdown.Divider />
@@ -146,13 +149,12 @@ class BootstrapNavbar extends React.Component {
               </Navbar>
               <br />
               <Switch>
-
                 <Route exact path="/">
                   <Home />
-                </Route>  
+                </Route>
                 <Route exact path="/thailand-living-essential">
                   <Home />
-                </Route> 
+                </Route>
                 <Route path="/about-us">
                   <AboutUs />
                 </Route>
@@ -161,7 +163,7 @@ class BootstrapNavbar extends React.Component {
                 </Route>
                 <Route path="/karfBangnaTrafficTime">
                   <KrafBangnaTrafficTime />
-                </Route> 
+                </Route>
                 {/* <BrowserRouter basename="/karfBangnaTrafficTime">
                     <Home />
                 </BrowserRouter> */}
