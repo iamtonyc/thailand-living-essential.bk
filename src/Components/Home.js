@@ -19,7 +19,9 @@ export default function Home() {
     letterSpacing:"10px"
   }
 
-
+  componentDidMount(){
+    document.title = "Thailand Living Essential";
+  }
 
   return (
     <div
