@@ -3,7 +3,7 @@
 deploy React App to Github pages
 ---------------------------------
 https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
-
+after setup type "npm run deploy"
 
 # Getting Started with Create React App
 

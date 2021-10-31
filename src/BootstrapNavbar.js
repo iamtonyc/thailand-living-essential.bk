@@ -43,7 +43,9 @@ class BootstrapNavbar extends React.Component {
                     <Nav.Link href="/thailand-living-essential/">Home</Nav.Link>
                     <NavDropdown title="Map" id="basic-nav-dropdown">
                       <NavDropdown.Item
-                        href="https://drive.google.com/file/d/18oal6lGVcnBBX3xCZDx-fn8fAdZruGjt/view?usp=sharing"
+                        href="https://iamtonyc.github.io/thailand-living-essential.2/"
+                        //href="https://drive.google.com/file/d/18oal6lGVcnBBX3xCZDx-fn8fAdZruGjt/view?usp=sharing"
+                        //href="http://cors.io/?https://iamtonyc.github.io/thailand-living-essential/krafBangnaTrafficTime.html"
                         target="_blank"
                       >
                         Kraf Bangna Traffic Time
@@ -95,7 +97,10 @@ class BootstrapNavbar extends React.Component {
                       </NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Living" id="basic-nav-dropdown">
-                      <NavDropdown.Item href="https://docs.google.com/document/d/1ockOPr6NoQU086mNxxvJOSr4zIIG8qkgKKSWxqU7wGk/edit">
+                      <NavDropdown.Item
+                        href="https://docs.google.com/document/d/1ockOPr6NoQU086mNxxvJOSr4zIIG8qkgKKSWxqU7wGk/edit"
+                        target="_blank"
+                      >
                         Living Essential
                       </NavDropdown.Item>
                       <NavDropdown.Divider />

@@ -28,7 +28,7 @@ export default function Home() {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        height: "800%",
+        height: "1200%",
       }}
     >
       <div style={caption}>
