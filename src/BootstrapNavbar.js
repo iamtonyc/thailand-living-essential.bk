@@ -1,4 +1,5 @@
 import React from "react";
+// import { BrowserRouter } from "react-router-dom";
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,7 +19,6 @@ import AboutUs from "./Components/AboutUs";
 import ContactUs from "./Components/ContactUS";
 import KrafBangnaTrafficTime from "./Components/Map/KrafBangnaTrafficTime";
 import BangnaMap from "./Components/Map/BangnaMap";
-import Living from "./Components/Living/LivingEssential";
 import LivingEssential from "./Components/Living/LivingEssential";
 
 class BootstrapNavbar extends React.Component {
@@ -29,7 +29,7 @@ class BootstrapNavbar extends React.Component {
           <div className="col-md-12">
             <Router>
               <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                <Navbar.Brand href="#home" >
+                <Navbar.Brand href="/" >
                   Thailand Living Essential
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -138,9 +138,19 @@ class BootstrapNavbar extends React.Component {
               </Navbar>
               <br />
               <Switch>
+  
+                {/* <BrowserRouter basename="/">
+                    <Home />
+                </BrowserRouter> */}
+                {/* <Route exact path="">
+                  <Home />
+                </Route>  */}
                 <Route exact path="/">
                   <Home />
-                </Route>
+                </Route>  
+                <Route exact path="/thailand-living-essential">
+                  <Home />
+                </Route> 
                 <Route path="/about-us">
                   <AboutUs />
                 </Route>
@@ -149,7 +159,10 @@ class BootstrapNavbar extends React.Component {
                 </Route>
                 <Route path="/karfBangnaTrafficTime">
                   <KrafBangnaTrafficTime />
-                </Route>
+                </Route> 
+                {/* <BrowserRouter basename="/karfBangnaTrafficTime">
+                    <Home />
+                </BrowserRouter> */}
                 <Route path="/BangnaMap">
                   <BangnaMap />
                 </Route>
