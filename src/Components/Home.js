@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useEffect} from "react";
 import backgroundImage from "../assets/krafBangnaImage.jpg";
 
 export default function Home() {
@@ -19,9 +19,10 @@ export default function Home() {
     letterSpacing:"10px"
   }
 
-  componentDidMount(){
-    document.title = "Thailand Living Essential";
-  }
+  useEffect(() => {
+    document.title = "Thailand Living Essential";  
+  }, []);
+
 
   return (
     <div
