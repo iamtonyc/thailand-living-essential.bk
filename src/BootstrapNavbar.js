@@ -51,7 +51,8 @@ class BootstrapNavbar extends React.Component {
                         Kraf Bangna Traffic Time
                       </NavDropdown.Item>
                       <NavDropdown.Item
-                        href="https://www.google.com/maps/d/edit?hl=zh-TW&mid=1aZc_9pc10jtWndMUVNp7Mvazx1LkaCqG"
+                        href="https://iamtonyc.github.io/thailand-living-essential.2/bangnaMap.html"
+                        // href="https://www.google.com/maps/d/edit?hl=zh-TW&mid=1aZc_9pc10jtWndMUVNp7Mvazx1LkaCqG"
                         target="_blank"
                       >
                         Bangna Map
@@ -98,7 +99,8 @@ class BootstrapNavbar extends React.Component {
                     </NavDropdown>
                     <NavDropdown title="Living" id="basic-nav-dropdown">
                       <NavDropdown.Item
-                        href="https://docs.google.com/document/d/1ockOPr6NoQU086mNxxvJOSr4zIIG8qkgKKSWxqU7wGk/edit"
+                        // href="https://docs.google.com/document/d/1ockOPr6NoQU086mNxxvJOSr4zIIG8qkgKKSWxqU7wGk/edit"
+                        href="https://iamtonyc.github.io/thailand-living-essential.2/livingEssential.html"                        
                         target="_blank"
                       >
                         Living Essential
