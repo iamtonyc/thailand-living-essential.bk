@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/thailand-living-essential/static/js/main.e7e50db7.chunk.js",
-    "main.js.map": "/thailand-living-essential/static/js/main.e7e50db7.chunk.js.map",
+    "main.js": "/thailand-living-essential/static/js/main.e290a867.chunk.js",
+    "main.js.map": "/thailand-living-essential/static/js/main.e290a867.chunk.js.map",
     "runtime-main.js": "/thailand-living-essential/static/js/runtime-main.9ddb9bba.js",
     "runtime-main.js.map": "/thailand-living-essential/static/js/runtime-main.9ddb9bba.js.map",
     "static/css/2.0a9ec390.chunk.css": "/thailand-living-essential/static/css/2.0a9ec390.chunk.css",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.9ddb9bba.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.c762151d.chunk.js",
-    "static/js/main.e7e50db7.chunk.js"
+    "static/js/main.e290a867.chunk.js"
   ]
 }
